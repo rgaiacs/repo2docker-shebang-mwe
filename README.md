@@ -14,5 +14,11 @@ micromamba create \
 ```bash
 micromamba run \
     -n repo2docker-shebang-mwe \
-    repo2docker .
+    repo2docker --version
+```
+
+```bash
+micromamba run \
+    -n repo2docker-shebang-mwe \
+    repo2docker --no-run .
 ```
